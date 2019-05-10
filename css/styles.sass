@@ -1,32 +1,29 @@
-$primary-color: #0151aa
-$secondary-color: #b3e05e
+$primary-color: #0B4F9F
+$secondary-color: #97C237
 $third-color: #3054C6
 $fourth-color: #22252A
-$navbar: #A0C756
+$navbar: #0E5AAB
 $primary-font-color: #000000
 $secondary-font-color: #FFFFFF
 
 
 body
-  border-top: 10px solid #A4CA5E
   font-family: 'Lato', Calibri, Arial, sans-serif
   overflow-x: hidden
 
 
+.box
+  height: 400px
+  width: 100%
+  background-color: $primary-color
+  margin-bottom: 50px
+
 h2
   font-weight: 600
 
-.top
-
-
-.logo
-  margin-top: 50px
-  margin-bottom: 80px
-
-
-.logo img
-  height: auto
-  width: 230px
+.navbar
+  margin-left: 65px
+  background-color: #ffffff
 
 
 .jumbotron
@@ -41,23 +38,19 @@ h2
 
 .upper-nav
   padding: 50px
-
-
-.lower-nav
-
   margin: auto
-  .navbar
-    margin-bottom: 0px
-    background-color: #22252A!important
-    font-size: 20px
-    text-transform: capitalize
-    a
-      color: #ffffff!important
 
-    .nav-item
-      padding-right: 20px
-      padding-left: 20px
-  /* General button style (reset) */
+
+
+.header-nav
+  padding: 22px
+  background-color: $primary-color
+
+
+.logo
+  height: auto
+  width: 700px
+
 .btn
   border: none
   font-family: inherit
@@ -127,7 +120,7 @@ header
   min-height: 25rem
   width: 100%
   overflow: hidden
-  background: url(../main.jpg)
+  background: url(img/main.jpg)
   background-size: cover
   background-position: center
   z-index: 1
@@ -364,9 +357,6 @@ h3
   width: 300px
 
 
-.down
-
-
 
 .listgroup
   position: fixed
@@ -375,8 +365,8 @@ h3
 .image-box
   height: 400px
   background: $primary-color
-  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../img/balls.jpg) fixed!important
-  background-position: center
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../img/main.jpg) fixed!important
+  background-position: top
   display: table-cell
   vertical-align: middle
   text-align: center
@@ -398,15 +388,15 @@ h3
 /*/////////////////////////////// Footer /////////////////////////// */
 
 .footer
-  border-top: 20px solid $navbar
-  background-color: $primary-color
+  border-top: 20px solid $secondary-color
+  background-color: $primary-color!important
   padding-top: 20px
   margin: 0 auto
   text-align: left
   h3
     color: $navbar
   h4
-    color: $navbar
+    color: #fff
   p
     color: $secondary-font-color
   .contact i
@@ -428,7 +418,7 @@ h3
     color: #A2A2A2
     padding-right: 5px
   .social-icons a:hover
-    color: $navbar
+    color: $secondary-color
   .panel-2
     padding-top: 0px
     padding-left: 15px
@@ -438,7 +428,6 @@ h3
     font-family: 'Questrial', sans-serif
   .levitate a:hover
     color: #ffffff
-  .logo
 
 .contact
   h1
@@ -447,14 +436,18 @@ h3
     color: #ffffff!important
 
 .links
-  color: $primary-color
+  color: #FFFFFF
   a
     color: #FFFFFF
   a:hover
-    color: $navbar
+    color: $secondary-color
 
 .footer-item
   padding-bottom: 20px
+  img
+    padding-bottom: 30px
+    width: 200px
+    height: auto
 
 /*///////////////// /////////////////*/
 
@@ -562,11 +555,12 @@ figure
 
 #button
   display: inline-block
-  background-color: $navbar
-  width: 50px
-  height: 50px
+  background-color: #5D6771
+  opacity: .5
+  width: 40px
+  height: 40px
   text-align: center
-  border-radius: 4px
+  border-radius: 0px
   position: fixed
   bottom: 30px
   right: 30px
@@ -585,7 +579,9 @@ figure
 
 #button:hover
   cursor: pointer
-  background-color: #333
+  background: #23A2E3
+  opacity: 1
+
 
 #button:active
   background-color: #555
@@ -596,6 +592,63 @@ figure
 
 #button
   i
-    margin-top: 10px
-    font-size: 50px
+    margin-top: 5px
+    font-size: 30px
     color: #22252A
+
+
+/* //////////////  Service Boxes //////////////// */
+
+*
+  -moz-box-sizing: border-box
+  -webkit-box-sizing: border-box
+  box-sizing: border-box
+  margin: 0
+  padding: 0
+
+
+.box-item
+
+
+  overflow: hidden
+  width: auto
+  height: auto
+  text-align: center
+
+
+.box-item img
+  max-width: 100%
+  height: auto
+  -moz-transition: all 0.3s
+  -webkit-transition: all 0.3s
+  transition: all 0.3s
+
+.box-item:hover img
+  -moz-transform: scale(1.1)
+  -webkit-transform: scale(1.1)
+  transform: scale(1.1)
+
+
+.item-overlay
+  position: absolute
+  top: 0
+  left: 0
+  height: 100%
+  width: 100%
+  background-color: rgba(36, 38, 45, 0.8)
+  opacity: 0.6
+  z-index: 1
+
+
+.text
+  position: absolute
+  display: inline-block
+  vertical-align: middle
+  color: #fff
+  z-index: 999
+  margin: 0 auto
+  left: 0
+  right: 0
+  top: 40%
+  text-align: center
+  width: 100%
