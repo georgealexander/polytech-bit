@@ -392,7 +392,7 @@ h3 {
 /*/////////////////////////////// Footer /////////////////////////// */
 .footer {
   border-top: 20px solid #A0C756;
-  background-color: #22252A;
+  background-color: #0151aa;
   padding-top: 20px;
   margin: 0 auto;
   text-align: left;
@@ -464,6 +464,10 @@ h3 {
 
 .footer-item {
   padding-bottom: 20px;
+}
+
+.footer-img{
+  padding-bottom: 30px;
 }
 
 /*///////////////// /////////////////*/
