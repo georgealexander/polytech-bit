@@ -286,6 +286,10 @@ h3 {
   padding-bottom: 30px;
 }
 
+.blurb {
+  padding: 40px;
+}
+
 /*Owl Carousel*/
 .owl-carousel {
   overflow: hidden;
@@ -630,7 +634,11 @@ figure {
   color: #22252A;
 }
 
-/* //////////////  Service Boxes //////////////// */
+.item-container {
+  margin: 0 auto;
+  text-align: center;
+}
+
 * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -640,10 +648,12 @@ figure {
 }
 
 .box-item {
+  position: relative;
+  margin: 1%;
   overflow: hidden;
-  width: auto;
+  width: 300px;
   height: auto;
-  text-align: center;
+  display: inline-block;
 }
 
 .box-item img {
@@ -666,23 +676,21 @@ figure {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: rgba(36, 38, 45, 0.8);
+  background-color: #1354A1;
   opacity: 0.6;
   z-index: 1;
 }
 
 .text {
   position: absolute;
-  display: inline-block;
-  vertical-align: middle;
   color: #fff;
   z-index: 999;
   margin: 0 auto;
   left: 0;
   right: 0;
-  top: 40%;
+  top: 35%;
   text-align: center;
-  width: 100%;
+  width: 90%;
 }
 
 /*# sourceMappingURL=styles.css.map */
