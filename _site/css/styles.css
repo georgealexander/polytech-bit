@@ -635,6 +635,7 @@ figure {
 }
 
 .item-container {
+  padding-top: 50px;
   margin: 0 auto;
   text-align: center;
 }
@@ -691,6 +692,25 @@ figure {
   top: 35%;
   text-align: center;
   width: 90%;
+}
+
+.left-box {
+  background-color: #7098BF;
+  height: 400px;
+  margin: 0;
+}
+
+.upper-box {
+  background-color: #F3BD26;
+  height: 200px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.lower-box {
+  background-color: #23A2E3;
+  height: 200px;
+  margin: 0;
 }
 
 /*# sourceMappingURL=styles.css.map */
