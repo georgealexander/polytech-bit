@@ -1,0 +1,276 @@
+body {
+    width:100%;
+    padding-top: 0px;
+    background-color: #fff;
+    min-width: 360px;
+}
+
+.success {
+    position: absolute;
+    top: 50px;
+    min-width: 100%;
+}
+
+.body-content{
+    width: 100%;
+    padding: 0;
+    margin-top: 0 !important;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.navbar-inverse {
+    position: absolute;
+    background-color: rgba(51, 146, 226, 0);
+    width: 100%;
+}
+
+
+
+
+.navbar-collapse {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.navbar-right > li {
+    top: 4px;
+}
+
+
+
+#image-header {
+    width: 100%;
+    min-height: 500px;
+    text-align: left;
+}
+
+.main-text {
+  margin-top: 100px
+  width: 40%
+  left: 10%
+  color: white;
+  text-align: left;
+}
+
+
+h1 {
+    font-family: az_ea_font,wf_segoe-ui_normal,"Segoe UI","Segoe WP",Tahoma,Arial,sans-serif;
+
+}
+
+@media only screen and (max-width: 995px) {
+    h1 {
+        font-family: az_ea_font,wf_segoe-ui_normal,"Segoe UI","Segoe WP",Tahoma,Arial,sans-serif;
+        font-size: 65px;
+    }
+}
+
+.sub-title {
+    font-size: 45px;
+}
+
+.main-title p {
+    padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 840px){
+    h1 {
+        font-family: az_ea_font,wf_segoe-ui_normal,"Segoe UI","Segoe WP",Tahoma,Arial,sans-serif;
+        font-size: 50px;
+    }
+
+    .sub-title {
+        font-size: 40px;
+    }
+}
+
+
+@media only screen and (max-width: 560px) {
+    h1 {
+        font-family: az_ea_font,wf_segoe-ui_normal,"Segoe UI","Segoe WP",Tahoma,Arial,sans-serif;
+        font-size: 45px;
+    }
+
+    .sub-title {
+        font-size: 35px;
+    }
+    .main-title p {
+        padding-bottom: 0px;
+    }
+}
+
+
+.main-title h1 {
+    margin-top: 10%;
+    text-align: -webkit-center;
+    padding-bottom: 20px;
+}
+
+
+
+
+#curtain {
+    position: absolute;
+    width: 100%;
+    min-height: 550px;
+    background-color: #0B4E90;
+    opacity: .85;
+    z-index: -1;
+}
+
+
+/*all that follows is for the tranistioning background*/
+.cb-slideshow {
+    list-style: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+    .cb-slideshow:after {
+        top: 0px;
+        left: 0px;
+        z-index: 0;
+    }
+
+
+    .cb-slideshow li span {
+        width: 100%;
+        min-height: 550px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        color: transparent;
+        background-size: cover;
+        background-position: 100% 100%;
+        background-repeat: none;
+        opacity: 0;
+        z-index: -1;
+        -webkit-backface-visibility: hidden;
+        -webkit-animation: imageAnimation 30s linear infinite 0s;
+        -moz-animation: imageAnimation 30s linear infinite 0s;
+        -o-animation: imageAnimation 30s linear infinite 0s;
+        -ms-animation: imageAnimation 30s linear infinite 0s;
+        animation: imageAnimation 30s linear infinite 0s;
+    }
+
+
+
+    .cb-slideshow li:nth-child(1) span {
+    background-image: url(../img/op.png)
+}
+.cb-slideshow li:nth-child(2) span {
+    background-image: url(../img/main.jpg);
+    -webkit-animation-delay: 6s;
+    -moz-animation-delay: 6s;
+    -o-animation-delay: 6s;
+    -ms-animation-delay: 6s;
+    animation-delay: 6s;
+}
+.cb-slideshow li:nth-child(3) span {
+    background-image: url(../img/2.jpg);
+    -webkit-animation-delay: 12s;
+    -moz-animation-delay: 12s;
+    -o-animation-delay: 12s;
+    -ms-animation-delay: 12s;
+    animation-delay: 12s;
+}
+    .cb-slideshow li:nth-child(4) span {
+        background-image: url(../images/SheepMountains.jpg);
+        -webkit-animation-delay: 18s;
+        -moz-animation-delay: 18s;
+        -o-animation-delay: 18s;
+        -ms-animation-delay: 18s;
+        animation-delay: 18s;
+    }
+.cb-slideshow li:nth-child(5) span {
+    background-image: url(../images/SheepField.jpg);
+    -webkit-animation-delay: 24s;
+    -moz-animation-delay: 24s;
+    -o-animation-delay: 24s;
+    -ms-animation-delay: 24s;
+    animation-delay: 24s;
+}
+
+.cb-slideshow li:nth-child(2) div {
+    -webkit-animation-delay: 6s;
+    -moz-animation-delay: 6s;
+    -o-animation-delay: 6s;
+    -ms-animation-delay: 6s;
+    animation-delay: 6s;
+}
+.cb-slideshow li:nth-child(3) div {
+    -webkit-animation-delay: 12s;
+    -moz-animation-delay: 12s;
+    -o-animation-delay: 12s;
+    -ms-animation-delay: 12s;
+    animation-delay: 12s;
+}
+.cb-slideshow li:nth-child(4) div {
+    -webkit-animation-delay: 18s;
+    -moz-animation-delay: 18s;
+    -o-animation-delay: 18s;
+    -ms-animation-delay: 18s;
+    animation-delay: 18s;
+}
+.cb-slideshow li:nth-child(5) div {
+    -webkit-animation-delay: 24s;
+    -moz-animation-delay: 24s;
+    -o-animation-delay: 24s;
+    -ms-animation-delay: 24s;
+    animation-delay: 24s;
+}
+
+/* Animation for the slideshow images */
+@-webkit-keyframes imageAnimation {
+    0% { opacity: 0;
+    -webkit-animation-timing-function: ease-in; }
+    8% { opacity: 1.0;
+         -webkit-animation-timing-function: ease-out; }
+    17% { opacity: 1.0 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+@-moz-keyframes imageAnimation {
+    0% { opacity: 0;
+    -moz-animation-timing-function: ease-in; }
+    8% { opacity: 1.0;
+         -moz-animation-timing-function: ease-out; }
+    17% { opacity: 1.0 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+@-o-keyframes imageAnimation {
+    0% { opacity: 0;
+    -o-animation-timing-function: ease-in; }
+    8% { opacity: 1.0;
+         -o-animation-timing-function: ease-out; }
+    17% { opacity: 1.0 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+@-ms-keyframes imageAnimation {
+    0% { opacity: 0;
+    -ms-animation-timing-function: ease-in; }
+    8% { opacity: 1.0;
+         -ms-animation-timing-function: ease-out; }
+    17% { opacity: 1.0 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+@keyframes imageAnimation {
+    0% { opacity: 0;
+    animation-timing-function: ease-in; }
+    8% { opacity: 1.0;
+         animation-timing-function: ease-out; }
+    17% { opacity: 1.0 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+
+/* Show at least something when animations not supported */
+.no-cssanimations .cb-slideshow li span{
+	opacity: 1.0;
+}
