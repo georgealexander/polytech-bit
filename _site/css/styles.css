@@ -71,7 +71,7 @@ h2 {
   letter-spacing: 2px;
 }
 
-.carouse-caption p {
+.carousel-caption p {
   width: 75%;
   margin: auto;
   font-size: 18px;
@@ -264,9 +264,12 @@ header .overlay {
   color: #fff;
   padding-top: 100px;
 }
+.main-text h1 {
+  width: 50%;
+}
 .main-text p {
   padding-top: 20px;
-  width: 60%;
+  width: 50%;
   font-size: 20px;
 }
 
@@ -526,7 +529,7 @@ h3 {
 .footer {
   /* border-top: 20px solid $secondary-color /* */
   background-color: #000000 !important;
-  padding-top: 20px;
+  padding-top: 60px;
   margin: 0 auto;
   text-align: left;
 }
@@ -544,7 +547,7 @@ h3 {
 }
 .footer .footer-top {
   padding-top: 20px;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
 }
 .footer .footer-top h3 {
   padding-bottom: 10px;
