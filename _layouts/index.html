@@ -23,6 +23,8 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/1.css">
 
+
+
     <style media="screen">
     .navbar-light{
       background-color: transparent;
@@ -30,13 +32,19 @@
     }
 
     .navbar-light.scrolled{
-      background-color: #fff;
-
+      background-color: #ffffff;
+      color: #000000!important;
+      transition: background-color 0.4s ease-out;
     }
 
-    .nav-link.scrolled{
-      color: 000000!important;
+    .navbar-light a.scrolled{
+      color: #000000!important;
     }
+
+    .abc.ncol{
+      color: #000!important;
+    }
+
     </style>
 
   </head>
@@ -55,16 +63,16 @@
 
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link abc" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link abc" href="#">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Study</a>
+          <a class="nav-link abc" href="#">Study</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link abc" href="#">Contact</a>
         </li>
       </ul>
     </div>
@@ -195,8 +203,8 @@ Study in a supportive and innovative environment and develop high-level technica
             <i class="fas fa-quote-left"></i>
           </div>
         <div class="child-2">
-          <p>All the lecturers have been amazing. They will always do their best to help any time that I don’t quite understand something.<br> <a href="https://www.op.ac.nz/story/525">Read More</a></p>
-          <p class="dark-green">Heather McDonald, BIT Student</p>
+          <p> I studied at Otago Girls’ High School, so coming from that into an environment where women are supported is really important to me. <br></p>
+          <p class="dark-green">Isabel Ryan, BIT Student</p>
 
 
         </div>
@@ -300,13 +308,20 @@ Dunedin, New Zealand</p>
     <!-- Change color on scroll -->
     <script type="text/javascript">
       $(window).scroll(function(){
-        $('nav').toggleClass('scrolled', $(this).scrollTop() > 50)
-        $('nav-link').toggleClass('scrolled', $(this).scrollTop() > 50);
+        $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
       });
     </script>
 
-
-
+    <script type="text/javascript">
+    $(window).scroll(function(){
+    if ($(this).scrollTop() > 50){
+      $('.abc').addClass('ncol');
+    }
+    else {
+        $('.abc').removeClass('ncol');
+    }
+    });
+    </script>
 
   </body>
 </html>
