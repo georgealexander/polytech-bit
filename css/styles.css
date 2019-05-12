@@ -702,7 +702,10 @@ figure {
 }
 @media (max-width: 965px) {
   .box-item {
-    width: 99%;
+    position: relative;
+    margin: 1%;
+    overflow: hidden;
+    width: 100% !important;
     height: auto;
     display: inline-block;
   }

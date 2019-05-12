@@ -45,6 +45,7 @@ body {
     width: 100%;
     min-height: 500px;
     text-align: left;
+    linear-gradient(180deg,rgba(19,83,135,1) 0%,rgba(32,145,215,.7) 100%);
 }
 
 .main-text {
