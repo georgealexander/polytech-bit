@@ -166,22 +166,7 @@ h1 {
     -ms-animation-delay: 12s;
     animation-delay: 12s;
 }
-    .cb-slideshow li:nth-child(4) span {
-        background-image: url(../images/SheepMountains.jpg);
-        -webkit-animation-delay: 18s;
-        -moz-animation-delay: 18s;
-        -o-animation-delay: 18s;
-        -ms-animation-delay: 18s;
-        animation-delay: 18s;
-    }
-.cb-slideshow li:nth-child(5) span {
-    background-image: url(../images/SheepField.jpg);
-    -webkit-animation-delay: 24s;
-    -moz-animation-delay: 24s;
-    -o-animation-delay: 24s;
-    -ms-animation-delay: 24s;
-    animation-delay: 24s;
-}
+   
 
 .cb-slideshow li:nth-child(2) div {
     -webkit-animation-delay: 6s;
@@ -196,20 +181,6 @@ h1 {
     -o-animation-delay: 12s;
     -ms-animation-delay: 12s;
     animation-delay: 12s;
-}
-.cb-slideshow li:nth-child(4) div {
-    -webkit-animation-delay: 18s;
-    -moz-animation-delay: 18s;
-    -o-animation-delay: 18s;
-    -ms-animation-delay: 18s;
-    animation-delay: 18s;
-}
-.cb-slideshow li:nth-child(5) div {
-    -webkit-animation-delay: 24s;
-    -moz-animation-delay: 24s;
-    -o-animation-delay: 24s;
-    -ms-animation-delay: 24s;
-    animation-delay: 24s;
 }
 
 /* Animation for the slideshow images */
