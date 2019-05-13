@@ -880,7 +880,7 @@ figure {
 /* Today's changes */
 
 .hero-banner{
-  height: 200px;
+  height: 400px;
   width: 100%;
-  color: blue;
+  background-color: #000000;
 }
