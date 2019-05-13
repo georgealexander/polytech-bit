@@ -888,3 +888,7 @@ figure {
   color: #fff;
 }
 
+.image-cover{
+  height: inherit;
+  width: 100%;
+}
