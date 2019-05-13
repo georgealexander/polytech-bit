@@ -41,6 +41,8 @@
       color: #000000!important;
     }
 
+    
+
     </style>
 
   </head>
@@ -157,28 +159,7 @@
 
 
 
-<section>
-    <div class="row">
-      <div class="col-md-12 image-box">
-          <div class="image-cover">
 
-            </div>
-        <div class="container">
-        <div class="col-md-12 image-box-content">
-          <h2>Are you keen on pursuing a career in Information Technology?</h2>
-          <p>
-Study in a supportive and innovative environment and develop high-level technical abilities and a strong theoretical understanding of IT concepts while exercising your problem-solving skills and creativity. </p>
-          <div class="view-more">
-            <button class="btn btn-2 btn-2a">Contact Us</button>
-          </div>
-        </div>
-      </div>
-
-
-
-        </div>
-      </div>
-</section>
 
 <section>
   <div class="container-fluid text-center video">
@@ -229,6 +210,29 @@ Study in a supportive and innovative environment and develop high-level technica
     </div>
 
   </div>
+</section>
+
+<section>
+    <div class="row">
+      <div class="col-md-12 image-box">
+          <div class="image-cover">
+
+            </div>
+        <div class="container">
+        <div class="col-md-12 image-box-content">
+          <h4>Are you keen on pursuing a career in Information Technology?</h4>
+          <p>
+Study in a supportive and innovative environment and develop high-level technical abilities and a strong theoretical understanding of IT concepts while exercising your problem-solving skills and creativity. </p>
+          <div class="view-more">
+            <button class="btn btn-2 btn-2a">Contact Us</button>
+          </div>
+        </div>
+      </div>
+
+
+
+        </div>
+      </div>
 </section>
 
 <footer class="footer">
@@ -321,6 +325,19 @@ Harbour Terrace</p>
 
     </script>
 
+    <script type="text/javascript">
+    $(document).on("scroll", function(){
+      if
+      ($(document).scrollTop() > 50){
+        $("nav").addClass("shrink");
+      }
+      else
+      {
+        $("nav").removeClass("shrink");
+      }
+    });
+    </script>
+
     <!-- Change color on scroll -->
     <script type="text/javascript">
       $(window).scroll(function(){
@@ -328,6 +345,7 @@ Harbour Terrace</p>
       });
     </script>
 
+    <!-- Change navbar link color on scroll -->
     <script type="text/javascript">
     $(window).scroll(function(){
     if ($(this).scrollTop() > 50){
