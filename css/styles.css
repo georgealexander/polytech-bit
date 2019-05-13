@@ -876,3 +876,11 @@ figure {
 }
 
 /*# sourceMappingURL=styles.css.map */
+
+/* Today's changes */
+
+.hero-banner{
+  height: 200px;
+  width: 100%;
+  color: blue;
+}
