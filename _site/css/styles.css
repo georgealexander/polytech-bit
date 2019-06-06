@@ -61,7 +61,7 @@ h2 {
 }
 
 .business{
-  background-image: linear-gradient(20deg, rgba(51,146,226,0.6), rgba(153,153,153,0.6)), url(../img/work.jpg);
+  background-image: linear-gradient(20deg, rgba(51,146,226,0.8), rgba(152,193,54,0.9)), url(../img/work.jpg);
   background-size: cover;
   color: #000;
 }
@@ -239,14 +239,15 @@ h2 {
 /* ///////// Button 2 //// LOG IN  ////////////*/
 .btn-2 {
   border: 3px solid #000;
-  color: #000;
+  background: #000;
+  color: #999!important;
 }
 
 /* Button 2a */
 .btn-2a:hover,
 .btn-2a:active {
-  color: #999!important;
-  background: #000;
+  color: #000!important;
+  background: transparent;
 }
 
 .border-padding {
@@ -758,7 +759,7 @@ figure {
 }
 
 .business{
-  background-image: linear-gradient(20deg, rgba(51,146,226,0.8), rgba(153,153,153,0.8)), url(../img/work.jpg);
+  background-image: linear-gradient(20deg, rgba(51,146,226,0.8), rgba(152,193,54,0.9)), url(../img/work.jpg);
 }
 
 .project-img{
