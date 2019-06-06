@@ -762,6 +762,11 @@ figure {
 }
 
 
+our-projects {
+    padding-top: 60px;
+    padding-bottom: 60px; 
+}
+
 
   .footer-item {
     padding-bottom: 20px;
