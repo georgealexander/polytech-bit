@@ -751,6 +751,18 @@ figure {
     margin-bottom: 10px;
   }
 
+  .intro{
+  width: 100%;
+  
+}
+
+.blurb {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+
   .footer-item {
     padding-bottom: 20px;
   }
