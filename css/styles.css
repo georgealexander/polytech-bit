@@ -763,7 +763,7 @@ figure {
 }
 
 .project-img{
-  margin-bottom: 100px;
+  margin-bottom: 20px;
 }
 
 .blurb {
@@ -771,11 +771,6 @@ figure {
     padding-bottom: 50px;
 }
 
-
-.project-img {
-    padding-top: 60px;
-    padding-bottom: 400px; 
-}
 
 
   .footer-item {
