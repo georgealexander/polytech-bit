@@ -748,6 +748,10 @@ figure {
     margin-bottom: 10px;
   }
 
+  .navbar-light{
+    background-color: #0B4F9F!important;
+  }
+
   .intro{
   width: 100%;
   
