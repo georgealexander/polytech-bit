@@ -61,7 +61,7 @@ h2 {
 }
 
 .business{
-  background-image: linear-gradient(20deg, rgba(51,146,226,0.5), rgba(153,153,153,0.5)), url(../img/work.jpg);
+  background-image: linear-gradient(20deg, rgba(51,146,226,0.6), rgba(153,153,153,0.6)), url(../img/work.jpg);
   background-size: cover;
   color: #000;
 }
@@ -910,6 +910,7 @@ our-projects {
 
 .item-overlay {
   position: absolute;
+  overflow: hidden;
   top: 0;
   left: 0;
   height: 100%;
