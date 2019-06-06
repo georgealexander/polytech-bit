@@ -49,8 +49,16 @@
     opacity: .85;
     z-index: -1;
 }
-    
-
+    .curtain{
+    position: absolute;
+    width: 100%;
+    height: 100%: ;
+    background-color: #0B4E90;
+    opacity: .85;
+    top: 0;
+  left: 0;
+    z-index: -1;
+}
     </style>
 
   </head>
@@ -158,73 +166,79 @@
 
 <div class="container">
   <div class="row">
-    <div class="col-md-4 col-sm-12 project-img"><a class="hvr-shrink" type="button" data-toggle="modal" data-target="#webDev"><div class="text">
+    <div class="col-md-4 col-sm-12 project-img">
+      <a class="hvr-shrink" type="button" data-toggle="modal" data-target="#webDev">
+      <div class="text">
             <h2>Web Development</h2>
+      </div>
+      <img src="img/iot.jpg" class="rounded float-left" alt="...">
+      <div class="item-overlay"></div>
+      </a>
     </div>
-    <img src="img/iot.jpg" class="rounded float-left" alt="...">
-    <div class="item-overlay"></div>
-  </a><br>
-  </div>
 
   
-    <div class="col-md-4 col-sm-12 project-img"><a class="hvr-shrink" type="button" data-toggle="modal" data-target="#mobileDev"><div class="text">
+    <div class="col-md-4 col-sm-12 project-img">
+      <a class="hvr-shrink" type="button" data-toggle="modal" data-target="#mobileDev">
+        <div class="text">
             <h2>Mobile Development</h2>
-    </div>
+      </div>
     <img src="img/mobile.jpg" class="rounded float-left" alt="...">
     <div class="item-overlay"></div>
-  </a><br>
-  </div>
+    </a>
+    </div>
 
 
 
-  <div class="col-md-4 col-sm-12 project-img"><a class="hvr-shrink" type="button" data-toggle="modal" data-target="#gameDev"><div class="text">
+  <div class="col-md-4 col-sm-12 project-img"><a class="hvr-shrink" type="button" data-toggle="modal" data-target="#gameDev">
+    <div class="text">
             <h2>Games Development</h2>
     </div>
     <img src="img/web.jpg" class="rounded float-left" alt="...">
     <div class="item-overlay"></div>
-  </a><br>
+    </a>
   </div>
-
-  
 
 </div> <!-- END OF ROW -->
 
 
     <div class="row">
-    <div class="col-md-4 col-sm-12 float-left project-img"><a class="hvr-shrink" type="button" data-toggle="modal" data-target="#assistive">
+    <div class="col-md-4 col-sm-12 float-left project-img">
+      <a class="hvr-shrink" type="button" data-toggle="modal" data-target="#assistive">
       <div class="text">
             <h2>Assistive Technologies</h2>
       </div>
     <img src="img/image.jpg" class="rounded float-left" alt="...">
     <div class="item-overlay"></div>
-  </a><br>
+    </a>
   </div>
 
 
-
-
-    <div class="col-md-4 col-sm-12 mx-auto project-img"><a class="hvr-shrink" type="button" data-toggle="modal" data-target="#iot"><div class="text">
+    <div class="col-md-4 col-sm-12 mx-auto project-img">
+      <a class="hvr-shrink" type="button" data-toggle="modal" data-target="#iot">
+        <div class="text">
             <h2>Internet of Things</h2>
-    </div>
-    <img src="img/gateway.jpg" class="rounded float-left" alt="...">
-    <div class="item-overlay"></div>
-  </a><br>
+        </div>
+      <img src="img/gateway.jpg" class="rounded float-left" alt="...">
+      <div class="curtain"></div>
+  </a>
   </div>
 
  
 
-  <div class="col-md-4 col-sm-12 float-left project-img"><a class="hvr-shrink" type="button" data-toggle="modal" data-target="#operations"><div class="text">
+  <div class="col-md-4 col-sm-12 float-left project-img">
+    <a class="hvr-shrink" type="button" data-toggle="modal" data-target="#operations">
+      <div class="text">
             <h2>Operations & Security</h2>
-    </div>
+      </div>
     <img src="img/main.jpg" class="rounded float-left" alt="...">
-    <div class="item-overlay"></div>
-  </a><br>
+    <div class="curtain"></div>
+  </a>
   </div>
 
   
 </div> <!-- END OF ROW -->
 
-  </div>
+  </div><!-- END OF CONTAINER -->
 
 </section>
 
