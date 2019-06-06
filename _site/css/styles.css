@@ -559,6 +559,24 @@ h3 {
   opacity: 0.8;
 }
 
+
+
+/* Shrink */
+.hvr-shrink {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-shrink:hover, .hvr-shrink:focus, .hvr-shrink:active {
+  -webkit-transform: scale(0.95);
+  transform: scale(0.95);
+}
 /*/////////////////////////////// Footer /////////////////////////// */
 .footer {
   /* border-top: 20px solid $secondary-color /* */
@@ -883,13 +901,14 @@ figure {
   height: 100%;
   width: 100%;
   z-index: 1;
-  background-color: rgba(51,146,226,0.4);
+  border-radius: 4px;
+  background-color: rgba(51,146,226,0.6);
 }
 
 
 .text {
   position: absolute;
-  color: #000;
+  color: #FFF;
   z-index: 999;
   margin: 0 auto;
   left: 0;
