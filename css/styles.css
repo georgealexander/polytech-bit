@@ -27,14 +27,7 @@ body {
   overflow: hidden;
 }
 
- #curtain {
-    position: absolute;
-    width: 100%;
-    min-height: 800px;
-    background-color: #0B4E90;
-    opacity: .85;
-    z-index: -1;
-}
+
 
 
 .box {
