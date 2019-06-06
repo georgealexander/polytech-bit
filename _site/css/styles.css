@@ -998,19 +998,9 @@ figure {
   overflow: hidden;
   position: relative;
   text-align: center;
-  cursor: default;
-  background: #42b078;
+  background: rgba(51,146,226,0.8);
 }
 
-.hovereffect .text {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  overflow: hidden;
-  top: 0;
-  left: 0;
-  padding: 50px 20px;
-}
 
 .hovereffect img {
   display: block;
@@ -1037,7 +1027,7 @@ figure {
   color: #fff;
   text-align: center;
   position: relative;
-  font-size: 17px;
+  font-size: 20px;
   overflow: hidden;
   padding: 0.5em 0;
   background-color: transparent;
