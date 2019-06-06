@@ -18,7 +18,8 @@ body {
 }
 
 .blurb {
-  padding: 50px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .topdiv {
@@ -51,6 +52,25 @@ h2 {
 .upper-nav {
   padding: 50px;
   margin: auto;
+}
+
+
+.secondary{
+  background-color: #333;
+  color: #fff;
+
+}
+
+.business{
+  background-image: linear-gradient(20deg, rgba(51,146,226,0.5), rgba(153,153,153,0.5)), url(../img/work.jpg);
+  background-size: cover;
+  color: #000;
+}
+
+
+.our-projects{
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .carousel-item {
@@ -121,7 +141,22 @@ h2 {
 
 .logo {
   height: auto;
-  width: 300px;
+  width: 150px;
+}
+
+.intro{
+  width: 60%;
+  padding-top: 40px;
+}
+
+.intro h2{
+  margin-bottom: 20px;
+
+}
+
+.intro p{
+  font-size: 20px;
+  font-weight: lighter!important;
 }
 
 .video {
@@ -182,7 +217,7 @@ h2 {
   cursor: pointer;
   padding: 10px 35px;
   display: inline-block;
-  margin: 15px 30px;
+  margin: 15px 0px;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 700;
@@ -204,15 +239,15 @@ h2 {
 
 /* ///////// Button 2 //// LOG IN  ////////////*/
 .btn-2 {
-  border: 3px solid #fff;
-  color: #fff;
+  border: 3px solid #000;
+  color: #000;
 }
 
 /* Button 2a */
 .btn-2a:hover,
 .btn-2a:active {
-  color: #000000;
-  background: #fff;
+  color: #999!important;
+  background: #000;
 }
 
 .border-padding {
@@ -265,11 +300,11 @@ header .overlay {
   padding-top: 100px;
 }
 .main-text h1 {
-  width: 50%;
+  width: 100%;
 }
 .main-text p {
   padding-top: 20px;
-  width: 50%;
+  width: 100%;
   font-size: 20px;
 }
 
@@ -799,7 +834,7 @@ figure {
 }
 
 .item-container {
-  padding-bottom: 50px;
+  padding-bottom: 0px;
   margin: 0 auto;
   text-align: center;
 }
@@ -819,6 +854,7 @@ figure {
   width: 300px;
   height: auto;
   display: inline-block;
+
 }
 
 .box-item img {
@@ -827,6 +863,7 @@ figure {
   -moz-transition: all 0.3s;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+
 }
 
 .box-item:hover img {
@@ -842,11 +879,13 @@ figure {
   height: 100%;
   width: 100%;
   z-index: 1;
+  background-color: rgba(11,79,159,0.6);
+  opacity: 0.9;
 }
 
 .text {
   position: absolute;
-  color: #000;
+  color: #FFF;
   z-index: 999;
   margin: 0 auto;
   left: 0;
