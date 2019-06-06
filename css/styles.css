@@ -557,7 +557,9 @@ a:hover {
   opacity: 0.8;
 }
 
-
+.project-img{
+  
+}
 
 /* Shrink */
 .hvr-shrink {
@@ -763,7 +765,7 @@ figure {
 }
 
 .project-img{
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .blurb {
@@ -914,6 +916,7 @@ figure {
 
 .project-img{
   margin-bottom: 50px;
+
 }
 
 .item-overlay {
