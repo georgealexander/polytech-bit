@@ -22,8 +22,6 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/1.css">
 
-
-
     <style media="screen">
     .navbar-light{
       background-color: transparent;
@@ -46,7 +44,6 @@
     
 
     </style>
-
 
   </head>
 
@@ -73,7 +70,7 @@
           <a class="nav-link abc" href="#projects">Our Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link abc" href="#">Contact</a>
+          <a class="nav-link abc" href="#contact">Contact</a>
         </li>
       </ul>
     </div>
@@ -139,23 +136,6 @@
   </section>
 
 
- <section class="about business">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-5 blurb">
-      </div>
-      <div class="col-md-7 col-sm-12 text-left blurb">
-      <h2>Are you a business or organization that could benefit from I.T. help?</h2>
-      <p>We're always on the lookout for local business with ideas or jobs that could be used for project work. If this sounds like you then get in touch below!</p>
-     
-      <button type="button" data-toggle="modal" data-target="#exampleModal" class="btn btn-2 btn-2a">Contact Us</button>
-     
-
-    </div>
-
-
-  </section>
-
 
 <section class="our-projects" id="projects">
   <div class="container">
@@ -172,7 +152,7 @@
    <div class="text">
               <h3>Internet of Things</h3>
         </div>
-  <img src="https://www.op.ac.nz/assets/infosheets/953804008e/634x484-IT04__FillWzMxNywyNDJd.jpg" alt="pepsi" width="540" height="548">
+  <img src="../img/iot.jpg" alt="" width="540" height="548">
 
   <div class="item-overlay top"></div>
         </a>
@@ -185,7 +165,7 @@
    <div class="text">
             <h3>Servers</h3>
         </div>
-  <img src="https://www.op.ac.nz/assets/infosheets/7a58e74dbf/317x242-IT-06__FillWzMxNywyNDJd.JPG" alt="pepsi" width="540" height="548">
+  <img src="https://www.op.ac.nz/assets/infosheets/7a58e74dbf/317x242-IT-06__FillWzMxNywyNDJd.JPG" alt="" width="540" height="548">
 
   <div class="item-overlay top"></div>
         </a>
@@ -198,7 +178,7 @@
    <div class="text">
             <h3>Mobile</h3>
         </div>
-  <img src="https://www.odt.co.nz/sites/default/files/styles/odt_landscape_medium_4_3/public/story/2019/01/edu011920op20it20graysonorr.jpg?itok=5pmx4H0q" alt="pepsi" width="540" height="548">
+  <img src="https://www.op.ac.nz/assets/studentstories/8da6d1e890/IT_profile_FawazDinnunhan_003-v2__FillWzYyNiwzNDRd.jpg" alt="" width="540" height="548">
 
   <div class="item-overlay top"></div>
          </a>
@@ -214,7 +194,7 @@
               <!-- text goes here -->
                <h3>Web</h3>
         </div>
-  <img src="../img/web.jpg" alt="pepsi" width="540!important" height="548!imortant">
+  <img src="" alt="" width="540" height="548">
 
   <div class="item-overlay top"></div>
         </a>
@@ -240,7 +220,7 @@
    <div class="text">
             <!-- text goes here -->
         </div>
-  <img src="https://www.odt.co.nz/sites/default/files/styles/odt_landscape_medium_4_3/public/story/2019/01/edu011920op20it20graysonorr.jpg?itok=5pmx4H0q" alt="pepsi" width="540" height="548">
+  <img src="https://www.odt.co.nz/sites/default/files/styles/odt_landscape_medium_4_3/public/story/2019/01/edu011920op20it20graysonorr.jpg?itok=5pmx4H0q" alt="" width="540" height="548">
 
   <div class="item-overlay top"></div>
          </a>
@@ -253,6 +233,59 @@
 
 </section>
 
+<section id="contact" class="about business">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5 blurb">
+      </div>
+      <div class="col-md-7 col-sm-12 text-left blurb">
+      <h2>Are you a business or organization that could benefit from I.T. help?</h2>
+      <p>We're always on the lookout for local business with ideas or jobs that could be used for project work. If this sounds like you then get in touch below!</p>
+     
+      <button type="button" data-toggle="modal" data-target="#modalContactForm" class="btn btn-2 btn-2a">Contact Us</button>
+     
+
+
+   <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">Write to us</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="form34" class="form-control validate" placeholder="Name">
+          
+        </div>
+
+        <div class="md-form mb-5">
+          <input type="email" id="form29" class="form-control validate" placeholder="Email">
+        </div>
+
+        <div class="md-form">
+          <textarea type="text" id="form8" class="md-textarea form-control" rows="4" placeholder="Your Message"></textarea>
+        </div>
+
+      </div>
+      <div class="modal-footer d-flex justify-content-center">
+        <button class="btn btn-primary">Send <i class="fas fa-paper-plane-o ml-1"></i></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+    </div>
+
+
+  </section>
+
 
 
 
@@ -261,30 +294,6 @@
 
 
 <!-- ///////////////////////////////////// FOOTER /////////////////////////// -->
-
-<section>
-  <div class="row">
-    <div class="col-md-6 person-img">
-
-    </div>
-    <div class="col-md-6 person-quote">
-      <div class="row">
-        <div class="parent">
-          <div class="child-1">
-            <i class="fas fa-quote-left"></i>
-          </div>
-        <div class="child-2">
-          <p> I studied at Otago Girls’ High School, so coming from that into an environment where women are supported is really important to me. <br></p>
-          <p class="dark-green">Isabel Ryan, BIT Student</p>
-
-
-        </div>
-        </div>
-        </div>
-    </div>
-
-  </div>
-</section>
 
 
 
@@ -352,26 +361,11 @@ Harbour Terrace</p>
    </footer>
 
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     
+
     <script src="js/scroll-down.js"></script>
-    <script src="js/index.js" type="text/javascript"></script>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js'></script>
-    <script  src="js/index.js"></script>
-
-    <script src="js/bootstrap.min.js"></script>
-
-
-    <script type="text/javascript">
-      $('#exampleModal').on('shown.bs.modal', function () {
-  $('#myInput').trigger('focus')
-})
-    </script>
 
     <script type="text/javascript">
     var btn = $('#button');
