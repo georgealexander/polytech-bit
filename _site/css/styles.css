@@ -740,6 +740,17 @@ figure {
   height: 100%;
 }
 
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+.navbar-light{
+    background-color: #0B4F9F!important;
+  }
+
+}
+
+
+
+
 @media (max-width: 767px) {
   .section-divider {
     margin-bottom: 10px;

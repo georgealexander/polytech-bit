@@ -740,14 +740,17 @@ figure {
   height: 100%;
 }
 
+
+
+
+
+
 @media (max-width: 767px) {
   .section-divider {
     margin-bottom: 10px;
   }
 
-  .navbar-light{
-    background-color: #0B4F9F!important;
-  }
+  
 
   .intro{
   width: 100%;
@@ -781,6 +784,10 @@ figure {
     width: 100% !important;
     height: auto;
     display: inline-block;
+  }
+
+  .navbar-light{
+    background-color: #0B4F9F!important;
   }
 }
 @media (max-width: 1075px) {
