@@ -740,8 +740,9 @@ figure {
   height: 100%;
 }
 
-
-
+.intro h1{
+  font-size:10em;
+}
 
 
 
@@ -775,17 +776,11 @@ figure {
   .footer-item {
     padding-bottom: 20px;
   }
-}
-@media (max-width: 965px) {
-  .box-item {
-    position: relative;
-    margin: 1%;
-    overflow: hidden;
-    width: 100% !important;
-    height: auto;
-    display: inline-block;
-  }
 
+}
+
+
+@media (max-width: 991px) {
   .navbar-light{
     background-color: #0B4F9F!important;
   }
