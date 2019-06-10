@@ -17,17 +17,18 @@ body {
 }
 
 .blurb {
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
+
+
+
 
 .topdiv {
   width: 100%;
   min-height: 500px;
   overflow: hidden;
 }
-
-
 
 
 .box {
@@ -95,7 +96,9 @@ h2 {
   color: #ffffff;
   font-size: 25px;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
   letter-spacing: 2px;
 }
 
@@ -241,6 +244,21 @@ h2 {
 .btn-2a:hover,
 .btn-2a:active {
   color: #000!important;
+  background: transparent;
+}
+
+
+.btn-3 {
+  border: 3px solid #fff;
+  background: #fff;
+  color: #333333!important;
+
+}
+
+/* Button 2a */
+.btn-3a:hover,
+.btn-3a:active {
+  color: #fff!important;
   background: transparent;
 }
 
@@ -1068,4 +1086,39 @@ figure {
 
 .project{
   padding-bottom: 30px;
+}
+
+.modal-content{
+  border: 0px;
+}
+
+.modal-header{
+ background-color: #0B4F9F;
+  padding: 2rem;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.modal-header .close {
+    color: #fff!important;
+  }
+
+.modal-body{
+  padding: 2rem;
+}
+
+.modal-footer{
+  background-color: #f1f1f1;
+  padding: 2rem;
+
+}
+
+.modal .btn{
+  color: #fff;
+    background-color: #000000;
+    border-color: #6c757d;
+}
+
+.mb-5, .my-5 {
+    margin-bottom: 2rem!important;
 }
